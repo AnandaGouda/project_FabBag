@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fab_Bag</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <!--navigation-->
+
+            <div class="navbar">
+                <h3>SUBSCRIBE NOW</h3>
+                <img id="logo" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289">
+                <img class="icon" id="search" onclick="showupnav()" src="https://image.flaticon.com/icons/png/128/622/622669.png"/>
+                <img class="icon" id="wish" src="https://image.flaticon.com/icons/png/128/860/860808.png"/>
+                <img class="icon" id="user" src="https://t3.ftcdn.net/jpg/02/59/39/46/240_F_259394679_GGA8JJAEkukYJL9XXFH2JoC3nMguBPNH.jpg"/>
+                <img class="icon" id="cart" onclick="showsidenav()" src="https://image.flaticon.com/icons/png/128/34/34568.png"/><span><p>0</p></span>
+            </div>
+            <nav id="sidenav">
+                <div id="cartnav">
+                    <div id="mycart"><h3>MY CART</h3></div>
+                    <div id="cross"><img onclick="hidesidenav()" src="https://img-premium.flaticon.com/png/128/4441/premium/4441907.png?token=exp=1629646683~hmac=e49aeea42810bf27431ea28385b05d1a"></div>
+                </div>
+                <div style="clear: both;"></div>
+            </nav>
+
+            <nav id="upnav">
+                <div id="searchnav">
+                    <div id="cancel"><img onclick="hideupnav()" src="https://img-premium.flaticon.com/png/128/4441/premium/4441907.png?token=exp=1629646683~hmac=e49aeea42810bf27431ea28385b05d1a"></div>
+                    <div id="look"><p>WHAT ARE YOU LOOKING FOR?</p></div>
+                    <div id="search"><span>search product</span><img src="https://image.flaticon.com/icons/png/128/622/622669.png"></div><hr>
+                </div>
+            </nav>
+            <!--==========================================================================================-->
+
+            <!--slide shows images-->
+
+            <div id="slideshowcont">
+                <div class="myslide">
+                    <img src="https://media6.ppl-media.com/tr:w-1280,c-at_max/mediafiles/ecomm/misc/1629555983_gv-web-banner-1298x418-11.jpg">
+                </div>
+                <div class="myslide">
+                    <img src="https://media6.ppl-media.com/tr:w-1280,c-at_max/mediafiles/ecomm/misc/1629474301_hair-carnival-header-banner_web-1.jpg">
+                </div>
+                <div class="myslide">
+                    <img src="https://media6.ppl-media.com/tr:w-1280,c-at_max/mediafiles/ecomm/misc/1629615370_wow_web-8.jpg">
+                </div>
+                <a class="prev" onclick="plusslides(-1)">&#10094;</a>
+                <a class="next" onclick="plusslides(1)">&#10095;</a>
+            </div>
+
+            <!--==================================================================================================-->
+            <div class="header" ><h1>WHAT'S IN THE BAG</h1><hr></div>
+           
+            <div id="bagitems">
+                <div class="bagitems"><img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-Reveal--2_5_2048x.png?v=1628163648">
+                    <p>TEEN TEEN SUPER SIZER FIBER MASCARA-BLACK</p>
+                </div>
+                <div class="bagitems"><img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-Reveal--1_1_2048x.png?v=1628314154">
+                    <p>TEEN TEEN GEL EYELINER-RICH BLACK</p>
+                </div>
+                <div class="bagitems"><img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-Reveal--2_1_2048x.png?v=1628496589">
+                    <p>NYASSA CREME DE PROVINCE FACE & BODY SCRUBE</p>
+                </div>
+                <div class="bagitems"><img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-Reveal--1_1_2048x.png?v=1627970159">
+                    <p>MOND'SUB LAVENDER SOOTHING & FIRMING FACIAL MASK</p>
+                </div>
+            </div>
+    
+
+                    <div class="subscription" ><h1>SUBSCRIPTION</h1><hr></div>
+                    <div id="subsccont">
+                        <div class="subitem">
+                            <div class="subitem2">
+                                <h3>1 MONTH</h3>
+                                <p>SUBSCRIPTION</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3>Rs. 599.00</h3>
+                                <p>/per month</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3 style="color:#e5b95f;">ONE TIME PAYMENT</h3>
+                                <h3>Rs.599.00</h3>
+                            </div>
+                            <div class="subitem2" style="background-color: #e5b95f;">
+                                <button>ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="subitem">
+                            <div class="subitem2">
+                                <h3>3 MONTH</h3>
+                                <p>SUBSCRIPTION</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3>Rs. 533.00</h3>
+                                <p>/per month</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3 style="color:#e5b95f;">ONE TIME PAYMENT</h3>
+                                <h3>Rs.1599.00</h3>
+                            </div>
+                            <div class="subitem2" style="background-color: #e5b95f;">
+                                <button>ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="subitem">
+                            <div class="subitem2">
+                                <h3>6 MONTH</h3>
+                                <p>SUBSCRIPTION</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3>Rs. 483.00</h3>
+                                <p>/per month</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3 style="color:#e5b95f;">ONE TIME PAYMENT</h3>
+                                <h3>Rs.2899.00</h3>
+                            </div>
+                            <div class="subitem2" style="background-color: #e5b95f;">
+                                <button>ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="subitem">
+                            <div class="subitem2">
+                                <h3>12 MONTH</h3>
+                                <p>SUBSCRIPTION</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3>Rs. 416.00</h3>
+                                <p>/per month</p>
+                            </div>
+                            <div class="subitem2">
+                                <h3 style="color:#e5b95f;">ONE TIME PAYMENT</h3>
+                                <h3>Rs.4999.00</h3>
+                            </div>
+                            <div class="subitem2" style="background-color: #e5b95f;">
+                                <button>ADD TO CART</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+        </div>
+
+    </body>
+</html>
+<script src="index.js"></script>
