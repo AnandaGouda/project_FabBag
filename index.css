@@ -53,6 +53,8 @@ padding: 0;
     top: 0;
     z-index: 2;
     display: none;
+    background-color: white;
+
     
 }
 #cartnav{
@@ -126,6 +128,7 @@ padding: 0;
     vertical-align: middle;
     position: absolute;
     width: 100%;
+    cursor: pointer;
     
 }
 .prev, .next{
@@ -176,6 +179,7 @@ padding: 0;
     border: 1px solid #e5b95f;
     border-radius: 30px;
     padding: 10px;
+    cursor: pointer;
 
 }
 
@@ -210,4 +214,8 @@ padding: 0;
     border: 1px solid white;
     padding: 10px;
     margin-top: 20px;
+    cursor: pointer;
 }
+
+
+   

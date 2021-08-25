@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>addtocart</title>
+        <link rel="stylesheet" href="addtocart.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <!--navigation-->
+
+            <div class="navbar">
+                <h3>SUBSCRIBE NOW</h3>
+                <img id="logo" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289">
+                <img class="icon" id="search" onclick="showupnav()" src="https://image.flaticon.com/icons/png/128/622/622669.png"/>
+                <img class="icon" id="wish" src="https://image.flaticon.com/icons/png/128/860/860808.png"/>
+                <img class="icon" id="user" src="https://t3.ftcdn.net/jpg/02/59/39/46/240_F_259394679_GGA8JJAEkukYJL9XXFH2JoC3nMguBPNH.jpg"/>
+                <img class="icon" id="cart" onclick="showsidenav()" src="https://image.flaticon.com/icons/png/128/34/34568.png"/><span><p>0</p></span>
+            </div>
+            <nav id="sidenav">
+                <div id="cartnav">
+                    <div id="mycart"><h3>MY CART</h3></div>
+                    <div id="cross"><img onclick="hidesidenav()" src="https://img-premium.flaticon.com/png/128/4441/premium/4441907.png?token=exp=1629646683~hmac=e49aeea42810bf27431ea28385b05d1a"></div>
+                </div>
+                <div style="clear: both;"></div>
+            </nav>
+
+            <nav id="upnav">
+                <div id="searchnav">
+                    <div id="cancel"><img onclick="hideupnav()" src="https://img-premium.flaticon.com/png/128/4441/premium/4441907.png?token=exp=1629646683~hmac=e49aeea42810bf27431ea28385b05d1a"></div>
+                    <div id="look"><p>WHAT ARE YOU LOOKING FOR?</p></div>
+                    <div id="search"><span>search product</span><img src="https://image.flaticon.com/icons/png/128/622/622669.png"></div><hr>
+                </div>
+            </nav>
+            <!--==========================================================================================-->
+
+            <div id="addcart">
+                <div id="image"><img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare--Reveal-Bous-Product.gif?v=1629009087"></div>
+                <div id="details">
+                    <p><a>Home</a></p>
+                    <h1>The Lash & Line August Fab Bag</h1>
+                    <h1>Rs. 599.00</h1>
+                    <p>Get ready to wink and woo the world with the Lash & Line...</p>
+                    <h3>Plans</h3>
+                    <div>
+                        <button>1 MONTH</button>
+                        <button>3 MONTH</button>
+                        <button>6 MONTH</button>
+                        <button>12 MONTH</button>
+                    </div>
+                    <div class="add_sub">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <div id="carttext">ADD TO CART</div>
+                    <div id="carticon"><img src="https://image.flaticon.com/icons/png/128/34/34568.png"></div>
+
+                </div>
+            </div>
+         </div>
+     </body>
+    </html>
+    <script src="addtocart.js"></script>

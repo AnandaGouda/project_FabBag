@@ -47,3 +47,9 @@ function plusslides(n){
 
 
 //=========================================
+function addtocart(){
+    window.location="addtocart.html"
+}
+function signup(){
+    window.location="signup.html"
+}

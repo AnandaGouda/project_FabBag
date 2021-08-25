@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup</title>
+        <link rel="stylesheet" href="signin.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <!--navigation-->
+
+            <div class="navbar">
+                <h3>SUBSCRIBE NOW</h3>
+                <img id="logo" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289">
+                <img class="icon" id="search" onclick="showupnav()" src="https://image.flaticon.com/icons/png/128/622/622669.png"/>
+                <img class="icon" id="wish" src="https://image.flaticon.com/icons/png/128/860/860808.png"/>
+                <img class="icon" id="user" src="https://t3.ftcdn.net/jpg/02/59/39/46/240_F_259394679_GGA8JJAEkukYJL9XXFH2JoC3nMguBPNH.jpg"/>
+                <img class="icon" id="cart" onclick="showsidenav()" src="https://image.flaticon.com/icons/png/128/34/34568.png"/><span><p>0</p></span>
+            </div>
+            <nav id="sidenav">
+                <div id="cartnav">
+                    <div id="mycart"><h3>MY CART</h3></div>
+                    <div id="cross"><img onclick="hidesidenav()" src="https://img-premium.flaticon.com/png/128/4441/premium/4441907.png?token=exp=1629646683~hmac=e49aeea42810bf27431ea28385b05d1a"></div>
+                </div>
+                <div style="clear: both;"></div>
+            </nav>
+
+            <nav id="upnav">
+                <div id="searchnav">
+                    <div id="cancel"><img onclick="hideupnav()" src="https://img-premium.flaticon.com/png/128/4441/premium/4441907.png?token=exp=1629646683~hmac=e49aeea42810bf27431ea28385b05d1a"></div>
+                    <div id="look"><p>WHAT ARE YOU LOOKING FOR?</p></div>
+                    <div id="search"><span>search product</span><img src="https://image.flaticon.com/icons/png/128/622/622669.png"></div><hr>
+                </div>
+            </nav>
+            <!--==========================================================================================-->
+            <div id="signup">
+                <form onsubmit="signupdata(event)">
+                <h1>Create An Account</h1>
+                <div id="fb"><p>Sign in with face book</p><img src="https://www.bing.com/th?id=OIP.hRtzu01VYeSHLDnixCAr6wHaHa&w=104&h=104&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"></div>
+                <div id="googl"><p>Sign in with Google</p><img src="https://image.flaticon.com/icons/png/128/179/179326.png"></div>
+                <lebel>First Name</lebel><br>
+                <input type="text" id="fname"><br>
+                <label>Last Name</label><br>
+                <input type="text" id="lname"><br>
+                <label>Your Email Address</label><br>
+                <input type="text" id="email"><br>
+                <label>Your Password</label><br>
+                <input type="password" id="password">
+                <div class="signup"><button type="submit">Create an Account</button></div>
+                <div id="or"><p>Or</p></div>
+                <div class="signup" onclick="signin()"><button>Sign In</button></div>
+                
+
+                </form>
+            </div>
+            </div>
+            </body>
+            </html>
+            <script src="signup.js"></script>

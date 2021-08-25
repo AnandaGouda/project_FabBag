@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    /*navigation*/
+    .navbar{
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #logo{
+        width: 200px;
+        height: 60px;
+        margin: auto;
+        align-items: center;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        margin-right: 20px; 
+        
+    
+    }
+     span p{
+        position:absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 0.69rem;
+        background-color:#e5b95f;
+        padding: 5px 5px;
+        border-radius: 50%;
+        color: white;
+    }
+    .navbar>h3{
+        cursor: pointer;
+        margin-left: 20px;
+        color: #e5b95f;
+    }
+    .sub_menu{
+        margin-top: 100px;
+        margin-left: 90%;
+        display: block;
+        position: absolute;
+    }
+    #sidenav{
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        display: none;
+        background-color: white;
+        
+    }
+    #cartnav{
+        height: 70px;
+        background-color: black;
+        color: white;
+        align-items: center;
+        text-align: center;
+    
+    }
+    #mycart{
+        float: left;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    #cross{
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    #cross img{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        
+    }
+    #upnav{
+        height: 200px;
+        width: 100%;
+        position: fixed;
+        background-color: honeydew;
+        top: 0;   
+        margin: auto;
+        display: none;
+        z-index: 2;
+    }
+    #cancel img{
+        margin-left: 90%;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    #search img{
+        margin-left: 90%;
+        width: 30px;
+        height: 30px;
+    }
+    #look{
+        margin-top: 50px;
+    }
+    #search span{
+        font-size: 40px;
+    }
+    /*-----------------------*/
+
+     /*sign up and login==================*/
+     #signup{
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    #fb, #googl{
+        width: 100%;
+        color: white;
+        height: 50px;
+        margin-top: 20px;
+        
+    }
+    #fb p{
+        padding:15px;
+        flex-grow: 2;
+        font-size: 20px;
+    }
+    #googl p{
+        padding: 15px;
+        flex-grow: 2;
+        font-size: 20px;
+    }
+    #fb{
+        display: flex;
+        border-color: #2d5073;
+        background-color: #3b5998; 
+    }#googl{
+        display: flex;
+        border-color: #c23321;
+        background-color: #dd4b39;
+    }
+    #fb img{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        
+    }
+    #googl img{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+    }
+    form h1{
+        text-align: center;
+    }
+    form input{
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .signup{
+        background-color: darkgoldenrod;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        color: white;
+        cursor: pointer;
+    }
+    .signup button{
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        background-color:darkgoldenrod;
+        color: white;
+        height: 50px;
+        width: 100%;
+    }
+    #or{
+        text-align: center;
+        height: 30px;
+        width: 100%;
+    }
+    .signup :hover{
+        background-color: black;
+    }
+
+    /*=======================================================================*/
