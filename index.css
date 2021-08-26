@@ -155,6 +155,9 @@ padding: 0;
 
 /*====================================================*/
 .header{
+    font-family: roboto;
+    font-size: 20px;
+    color: #222;
     text-align: center;
     margin-top: 35%;
 }

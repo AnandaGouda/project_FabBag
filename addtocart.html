@@ -39,22 +39,22 @@
                 <div id="details">
                     <p><a>Home</a></p>
                     <h1>The Lash & Line August Fab Bag</h1>
-                    <h1>Rs. 599.00</h1>
+                    <h1 >Rs.<span id="price">599</span>.00</h1>
                     <p>Get ready to wink and woo the world with the Lash & Line...</p>
                     <h3>Plans</h3>
                     <div>
-                        <button>1 MONTH</button>
-                        <button>3 MONTH</button>
-                        <button>6 MONTH</button>
-                        <button>12 MONTH</button>
+                        <button onclick="planchange(1)">1 MONTH</button>
+                        <button onclick="planchange(3)">3 MONTH</button>
+                        <button onclick="planchange(6)">6 MONTH</button>
+                        <button onclick="planchange(12)">12 MONTH</button>
                     </div>
                     <div class="add_sub">
-                        <p>-</p>
-                        <p>1</p>
-                        <p>+</p>
+                        <p onclick="decreaseQunt()">-</p>
+                        <p id="Qunt">1</p>
+                        <p onclick="increaseQunt()">+</p>
                     </div>
                     <div id="carttext">ADD TO CART</div>
-                    <div id="carticon"><img src="https://image.flaticon.com/icons/png/128/34/34568.png"></div>
+                    <div id="carticon"  onclick="gotocart()"><img src="https://image.flaticon.com/icons/png/128/34/34568.png"></div>
 
                 </div>
             </div>
@@ -62,3 +62,4 @@
      </body>
     </html>
     <script src="addtocart.js"></script>
+   
