@@ -30,3 +30,7 @@ function hideupnav(){
        total.innerText=`Rs.${price}.00`;
 
    }
+
+   function gotopayment(){
+       window.location="index.html";
+   }
